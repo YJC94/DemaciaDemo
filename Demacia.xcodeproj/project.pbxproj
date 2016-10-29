@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		767EBA921DC4E096008E7D8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 767EBA911DC4E096008E7D8D /* main.m */; };
+		767EBA951DC4E096008E7D8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 767EBA941DC4E096008E7D8D /* AppDelegate.m */; };
+		767EBA981DC4E096008E7D8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 767EBA971DC4E096008E7D8D /* ViewController.m */; };
+		767EBA9B1DC4E096008E7D8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767EBA991DC4E096008E7D8D /* Main.storyboard */; };
+		767EBA9D1DC4E096008E7D8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 767EBA9C1DC4E096008E7D8D /* Assets.xcassets */; };
+		767EBAA01DC4E096008E7D8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767EBA9E1DC4E096008E7D8D /* LaunchScreen.storyboard */; };
+		767EBAAB1DC4E096008E7D8D /* DemaciaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 767EBAAA1DC4E096008E7D8D /* DemaciaTests.m */; };
+		767EBAB61DC4E096008E7D8D /* DemaciaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 767EBAB51DC4E096008E7D8D /* DemaciaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		767EBAA71DC4E096008E7D8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 767EBA851DC4E096008E7D8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 767EBA8C1DC4E096008E7D8D;
+			remoteInfo = Demacia;
+		};
+		767EBAB21DC4E096008E7D8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 767EBA851DC4E096008E7D8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 767EBA8C1DC4E096008E7D8D;
+			remoteInfo = Demacia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		767EBA8D1DC4E096008E7D8D /* Demacia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demacia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		767EBA911DC4E096008E7D8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		767EBA931DC4E096008E7D8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		767EBA941DC4E096008E7D8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		767EBA961DC4E096008E7D8D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		767EBA971DC4E096008E7D8D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		767EBA9A1DC4E096008E7D8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		767EBA9C1DC4E096008E7D8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		767EBA9F1DC4E096008E7D8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		767EBAA11DC4E096008E7D8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		767EBAA61DC4E096008E7D8D /* DemaciaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemaciaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		767EBAAA1DC4E096008E7D8D /* DemaciaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemaciaTests.m; sourceTree = "<group>"; };
+		767EBAAC1DC4E096008E7D8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		767EBAB11DC4E096008E7D8D /* DemaciaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemaciaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		767EBAB51DC4E096008E7D8D /* DemaciaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemaciaUITests.m; sourceTree = "<group>"; };
+		767EBAB71DC4E096008E7D8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		767EBA8A1DC4E096008E7D8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767EBAA31DC4E096008E7D8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767EBAAE1DC4E096008E7D8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		767EBA841DC4E096008E7D8D = {
+			isa = PBXGroup;
+			children = (
+				767EBA8F1DC4E096008E7D8D /* Demacia */,
+				767EBAA91DC4E096008E7D8D /* DemaciaTests */,
+				767EBAB41DC4E096008E7D8D /* DemaciaUITests */,
+				767EBA8E1DC4E096008E7D8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		767EBA8E1DC4E096008E7D8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				767EBA8D1DC4E096008E7D8D /* Demacia.app */,
+				767EBAA61DC4E096008E7D8D /* DemaciaTests.xctest */,
+				767EBAB11DC4E096008E7D8D /* DemaciaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		767EBA8F1DC4E096008E7D8D /* Demacia */ = {
+			isa = PBXGroup;
+			children = (
+				767EBA931DC4E096008E7D8D /* AppDelegate.h */,
+				767EBA941DC4E096008E7D8D /* AppDelegate.m */,
+				767EBA961DC4E096008E7D8D /* ViewController.h */,
+				767EBA971DC4E096008E7D8D /* ViewController.m */,
+				767EBA991DC4E096008E7D8D /* Main.storyboard */,
+				767EBA9C1DC4E096008E7D8D /* Assets.xcassets */,
+				767EBA9E1DC4E096008E7D8D /* LaunchScreen.storyboard */,
+				767EBAA11DC4E096008E7D8D /* Info.plist */,
+				767EBA901DC4E096008E7D8D /* Supporting Files */,
+			);
+			path = Demacia;
+			sourceTree = "<group>";
+		};
+		767EBA901DC4E096008E7D8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				767EBA911DC4E096008E7D8D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		767EBAA91DC4E096008E7D8D /* DemaciaTests */ = {
+			isa = PBXGroup;
+			children = (
+				767EBAAA1DC4E096008E7D8D /* DemaciaTests.m */,
+				767EBAAC1DC4E096008E7D8D /* Info.plist */,
+			);
+			path = DemaciaTests;
+			sourceTree = "<group>";
+		};
+		767EBAB41DC4E096008E7D8D /* DemaciaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				767EBAB51DC4E096008E7D8D /* DemaciaUITests.m */,
+				767EBAB71DC4E096008E7D8D /* Info.plist */,
+			);
+			path = DemaciaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		767EBA8C1DC4E096008E7D8D /* Demacia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 767EBABA1DC4E096008E7D8D /* Build configuration list for PBXNativeTarget "Demacia" */;
+			buildPhases = (
+				767EBA891DC4E096008E7D8D /* Sources */,
+				767EBA8A1DC4E096008E7D8D /* Frameworks */,
+				767EBA8B1DC4E096008E7D8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demacia;
+			productName = Demacia;
+			productReference = 767EBA8D1DC4E096008E7D8D /* Demacia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		767EBAA51DC4E096008E7D8D /* DemaciaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 767EBABD1DC4E096008E7D8D /* Build configuration list for PBXNativeTarget "DemaciaTests" */;
+			buildPhases = (
+				767EBAA21DC4E096008E7D8D /* Sources */,
+				767EBAA31DC4E096008E7D8D /* Frameworks */,
+				767EBAA41DC4E096008E7D8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				767EBAA81DC4E096008E7D8D /* PBXTargetDependency */,
+			);
+			name = DemaciaTests;
+			productName = DemaciaTests;
+			productReference = 767EBAA61DC4E096008E7D8D /* DemaciaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		767EBAB01DC4E096008E7D8D /* DemaciaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 767EBAC01DC4E096008E7D8D /* Build configuration list for PBXNativeTarget "DemaciaUITests" */;
+			buildPhases = (
+				767EBAAD1DC4E096008E7D8D /* Sources */,
+				767EBAAE1DC4E096008E7D8D /* Frameworks */,
+				767EBAAF1DC4E096008E7D8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				767EBAB31DC4E096008E7D8D /* PBXTargetDependency */,
+			);
+			name = DemaciaUITests;
+			productName = DemaciaUITests;
+			productReference = 767EBAB11DC4E096008E7D8D /* DemaciaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		767EBA851DC4E096008E7D8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = PrPrLive;
+				TargetAttributes = {
+					767EBA8C1DC4E096008E7D8D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					767EBAA51DC4E096008E7D8D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 767EBA8C1DC4E096008E7D8D;
+					};
+					767EBAB01DC4E096008E7D8D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 767EBA8C1DC4E096008E7D8D;
+					};
+				};
+			};
+			buildConfigurationList = 767EBA881DC4E096008E7D8D /* Build configuration list for PBXProject "Demacia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 767EBA841DC4E096008E7D8D;
+			productRefGroup = 767EBA8E1DC4E096008E7D8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				767EBA8C1DC4E096008E7D8D /* Demacia */,
+				767EBAA51DC4E096008E7D8D /* DemaciaTests */,
+				767EBAB01DC4E096008E7D8D /* DemaciaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		767EBA8B1DC4E096008E7D8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767EBAA01DC4E096008E7D8D /* LaunchScreen.storyboard in Resources */,
+				767EBA9D1DC4E096008E7D8D /* Assets.xcassets in Resources */,
+				767EBA9B1DC4E096008E7D8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767EBAA41DC4E096008E7D8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767EBAAF1DC4E096008E7D8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		767EBA891DC4E096008E7D8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767EBA981DC4E096008E7D8D /* ViewController.m in Sources */,
+				767EBA951DC4E096008E7D8D /* AppDelegate.m in Sources */,
+				767EBA921DC4E096008E7D8D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767EBAA21DC4E096008E7D8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767EBAAB1DC4E096008E7D8D /* DemaciaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767EBAAD1DC4E096008E7D8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767EBAB61DC4E096008E7D8D /* DemaciaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		767EBAA81DC4E096008E7D8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 767EBA8C1DC4E096008E7D8D /* Demacia */;
+			targetProxy = 767EBAA71DC4E096008E7D8D /* PBXContainerItemProxy */;
+		};
+		767EBAB31DC4E096008E7D8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 767EBA8C1DC4E096008E7D8D /* Demacia */;
+			targetProxy = 767EBAB21DC4E096008E7D8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		767EBA991DC4E096008E7D8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				767EBA9A1DC4E096008E7D8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		767EBA9E1DC4E096008E7D8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				767EBA9F1DC4E096008E7D8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		767EBAB81DC4E096008E7D8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		767EBAB91DC4E096008E7D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		767EBABB1DC4E096008E7D8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Demacia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prprlive.Demacia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		767EBABC1DC4E096008E7D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Demacia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prprlive.Demacia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		767EBABE1DC4E096008E7D8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DemaciaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prprlive.DemaciaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demacia.app/Demacia";
+			};
+			name = Debug;
+		};
+		767EBABF1DC4E096008E7D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DemaciaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prprlive.DemaciaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demacia.app/Demacia";
+			};
+			name = Release;
+		};
+		767EBAC11DC4E096008E7D8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DemaciaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prprlive.DemaciaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Demacia;
+			};
+			name = Debug;
+		};
+		767EBAC21DC4E096008E7D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DemaciaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prprlive.DemaciaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Demacia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		767EBA881DC4E096008E7D8D /* Build configuration list for PBXProject "Demacia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767EBAB81DC4E096008E7D8D /* Debug */,
+				767EBAB91DC4E096008E7D8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		767EBABA1DC4E096008E7D8D /* Build configuration list for PBXNativeTarget "Demacia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767EBABB1DC4E096008E7D8D /* Debug */,
+				767EBABC1DC4E096008E7D8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		767EBABD1DC4E096008E7D8D /* Build configuration list for PBXNativeTarget "DemaciaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767EBABE1DC4E096008E7D8D /* Debug */,
+				767EBABF1DC4E096008E7D8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		767EBAC01DC4E096008E7D8D /* Build configuration list for PBXNativeTarget "DemaciaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767EBAC11DC4E096008E7D8D /* Debug */,
+				767EBAC21DC4E096008E7D8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 767EBA851DC4E096008E7D8D /* Project object */;
+}
